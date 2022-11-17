@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('../partials/head') %>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <%- include ('../partials/header') %>
+    </header>
+
+    <main>
+        <h1 class="text-center">
+            Ingrese su datos para consultar por cualquier curso disponible
+        </h1>
+        <div class="formulario-contact">
+            <section id="contact" class="content-form">
+
+
+                <form class="form-contact" action="" method="post">
+                    <label for="contact-name">Ingrese su nombre</label>
+                    <input id="contact-name" name="contact-name" type="text" minlength="1" maxlenght="50"
+                        pattern="[A-Za-z ñÑ]{2,50}" placeholder="Utiliza solamente letras para su nombre" required>
+
+                    <label for="contact-email">Ingrese su email</label>
+                    <input id="contact_email" type="email" name="conctact_mail" minlength="8"
+                        placeholder="ejemplo@email.com" required>
+
+
+
+                    <label for="contact-consult">Ingrese su consulta</label>
+                    <textarea id="contact_consult" name="message" minlength="20" maxlength="200"
+                        placeholder="Escribi en ésta sección la consulta que tengas y la responderemos a la brevedad"
+                        required></textarea>
+
+                    <button type="submit">
+
+                        Enviar
+
+                    </button>
+
+                </form>
+
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+    <%- include ('../partials/footer') %>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <%- include ('../partials/scripts') %>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+.carousel-item img{
+    height:80vh;
+    width: auto;
+    object-fit:cover;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+.tittle{ 
+
+    margin-top: 10px;
+    /* color: darkgoldenrod; */
+    text-align: center;
+    font-style: oblique;
+    font-family: monospace;
+    font-size: 4rem;
+  
+}
+
+.subtitle{
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.container-general{
+    margin: 2rem ;
+ 
+}
+.card-img{
+    object-fit:cover;
+}
+
+.card-container h2{
+    color: rgb(184, 135, 11);
+    font-size: 80px;
+    font-family: fantasy;
+}
+.card{
+    border-radius: 20px ;
+
+}
+ 
+a.btn{
+    color: rgb(255, 255, 255);
+    top: 30px;
+    background-color: rgb(236, 160, 61);
+ 
+}
+
+.btn:hover{
+       color: rgb(255, 255, 255);
+       background-color:burlywood ;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    display: none;
+}
+
+@media screen and (max-width: 426px){
+    .tittle{
+        
+        font-size: 3rem;
+    }
+    
+    .cards-container{
+    display: flex;
+    
+ 
+}
+.card-body{
+    width: 100%;
+
+}
+
+}

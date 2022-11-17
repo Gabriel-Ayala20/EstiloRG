@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include ('../partials/head') %>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <%- include ('../partials/header') %>
+  </header>
+
+
+  <main>
+    <!-- CARROUSEL -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/female-hairdresser-making-hairstyle-to-redhead-woman-in-beauty-salon.jpg" class="d-block w-100 "
+            alt="female">
+        </div>
+        <div class="carousel-item">
+          <img src="img/hairdresser-cut-hair-her-client-in-hair-salon.jpg" class="d-block w-100 " alt="hairdresser">
+        </div>
+        <div class="carousel-item">
+          <img src="img/woman-getting-treatment-at-hairdresser-shop.jpg" class="d-block w-100 " alt=woman">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- BREVE DESCRIPCION -->
+    <article>
+      <h1 class="tittle">Academia de estilistas RG</h1>
+      <h3 class="subtitle"> Somos una academia orientada a la peluqueria profesional. Dentro de la pagina encontraras
+        distintos cursos para
+        el cual formarte profesionalmente</h3>
+    </article>
+    <!-- CARRUSEL DE CARDS -->
+    <section class="card-container">
+      <h2 class="text-center py-5">Cursos</h2>
+      <div class="swiper mySwiper container-general">
+        <div class="swiper-wrapper cards-container" id="card-template">
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <%- include ('../partials/footer') %>
+  </footer>
+  <%- include ('../partials/scripts') %>
+</body>
+
+</html>

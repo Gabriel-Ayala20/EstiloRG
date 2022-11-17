@@ -1,0 +1,35 @@
+
+.formulario-contact{
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+.content-form{
+    margin-top: 3rem;
+    width:600px ;
+    height: 350px;
+    
+   
+}
+
+.form-contact{
+    display: flex;
+    flex-direction:column;
+   
+}
+
+
+.form-contact input {
+    margin-bottom:0.5rem;
+    border-radius: 10px;
+}
+.form-contact button{
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.form-contact textarea{
+    border-radius: 10px;
+    height: 100px;
+}
