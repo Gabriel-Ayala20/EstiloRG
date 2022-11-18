@@ -48,7 +48,7 @@ cursos.map((x) => {
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
         content.</p>
         <div class="text-center py-3">
-          <a href="#" class="btn btn-primary ">Mas Información</a>
+          <a href="/cursos" class="btn btn-primary ">Mas información</a>
         </div>
       
     </div>
